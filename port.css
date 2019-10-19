@@ -1,0 +1,35 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.conteudo {
+	display: flex;
+	width: auto;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #345454;
+}
+
+.cont {
+	text-align: center;
+	padding: 60px;
+	color: white;
+}
+
+.links {
+	font-size:48px;
+}
+
+a > i{
+	color: white;
+	padding: 5px;
+}
+
+a > i:hover{
+	color: gray;
+
+}
